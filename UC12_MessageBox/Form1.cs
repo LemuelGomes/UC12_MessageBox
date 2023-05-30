@@ -21,13 +21,15 @@ namespace UC12_MessageBox
         {
             DialogResult decisao = MessageBox.Show("Deseja Continuar?", "Opção", MessageBoxButtons.YesNo);
 
+            DateTime HORA = System.DateTime.Now;
+            string HORAstring = HORA.ToString("HH:mm");
+
             if (decisao == DialogResult.Yes)
             {
-                MessageBox.Show("Você clicou em Sim!");
-            }
-            else
+                MessageBox.Show("SIM! - " + HORAstring);
+            } else
             {
-                MessageBox.Show("Você clicou em Não!");
+                MessageBox.Show("NÃO!");
             }
         }
     }

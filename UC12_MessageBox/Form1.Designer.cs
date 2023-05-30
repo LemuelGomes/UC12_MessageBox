@@ -33,10 +33,9 @@
             // 
             // buttonMB
             // 
-            this.buttonMB.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonMB.Location = new System.Drawing.Point(145, 95);
+            this.buttonMB.Location = new System.Drawing.Point(310, 177);
             this.buttonMB.Name = "buttonMB";
-            this.buttonMB.Size = new System.Drawing.Size(173, 84);
+            this.buttonMB.Size = new System.Drawing.Size(180, 64);
             this.buttonMB.TabIndex = 0;
             this.buttonMB.Text = "MessageBox";
             this.buttonMB.UseVisualStyleBackColor = true;
@@ -44,9 +43,9 @@
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(458, 297);
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.buttonMB);
             this.Name = "Form1";
             this.Text = "Form1";
